@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="send_trustedshops_invitations" instance="Netzkollektiv\TrustedshopsInvitations\Cron\Processor" method="process">
+            <schedule cron_expr="0 2 * * *"/>
+        </job>
+    </group>
+</config>

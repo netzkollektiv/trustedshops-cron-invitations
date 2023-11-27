@@ -1,0 +1,20 @@
+{
+    "name": "netzkollektiv/trustedshops-cron-invitations",
+    "description": "Adapts trusted shops notification so that merchants are able to influcence the dispatch",
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Netzkollektiv\\TrustedshopsCronInvitations\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dominik Krebs",
+            "email": "dominik.krebs@netzkollektiv.com"
+        }
+    ]
+}
