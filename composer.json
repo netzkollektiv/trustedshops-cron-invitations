@@ -8,7 +8,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Netzkollektiv\\TrustedshopsCronInvitations\\": "src/"
+            "Netzkollektiv\\TrustedshopsInvitations\\": ""
         }
     },
     "authors": [
